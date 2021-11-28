@@ -15,8 +15,9 @@ from absl import app
 import os
 import io
 import pandas as pd
-import tensorflow as tf
+#import tensorflow as tf
 import sys
+import tensorflow.compat.v1 as tf
 
 sys.path.append("../../models/research")
 
