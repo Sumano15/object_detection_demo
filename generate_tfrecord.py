@@ -131,4 +131,5 @@ def main(_):
 
 
 if __name__ == "__main__":
-    tf.app.run()
+    tf_upgrade_v2
+    tf.compat.v1.app.run()
