@@ -11,7 +11,7 @@ python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOL
 from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import
-
+from absl import app
 import os
 import io
 import pandas as pd
@@ -131,4 +131,4 @@ def main(_):
 
 
 if __name__ == "__main__":
-     app.run()
+     app.run(main)
